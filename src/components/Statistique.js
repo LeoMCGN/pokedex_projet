@@ -28,7 +28,7 @@ const Statistique = (props) => {
         <h1>Détail de {pokemon.name}</h1>
         <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.id}.gif`} alt={pokemon.name} />
         <div className="detail">
-          <h2 className="text-stat">Plus d'info sur les stats</h2>
+          <h2 className="text-stat">Plus d'info sur les stats </h2>
           <div className="stats">
             {pokemon.stats.map((stat, index) => (
               <small key={stat.stat.name}>
